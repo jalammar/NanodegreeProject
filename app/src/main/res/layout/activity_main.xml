@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView android:text="@string/nanodegree_apps" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/spotify_streamer"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:background="#009688"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="@string/spotify_app"/>
+
+
+    <Button
+        android:id="@+id/scores_btn"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:background="#009688"
+        android:layout_marginTop="16dp"
+        android:text="@string/scores_app"/>
+
+
+    <Button
+        android:id="@+id/library_btn"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:background="#009688"
+        android:layout_marginTop="16dp"
+        android:text="@string/library_app"/>
+
+
+
+    <Button
+        android:id="@+id/build_btn"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:background="#009688"
+        android:layout_marginTop="16dp"
+        android:text="@string/build_it_bigger"/>
+
+
+
+    <Button
+        android:id="@+id/xyz_btn"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:background="#009688"
+        android:layout_marginTop="16dp"
+        android:text="@string/xyz_app"/>
+
+    <Button
+        android:id="@+id/capstone_btn"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:background="#009688"
+        android:layout_marginTop="16dp"
+        android:text="@string/capstone_app"/>
+</LinearLayout>
